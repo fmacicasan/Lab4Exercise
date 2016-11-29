@@ -13,12 +13,11 @@ public class ArrayProblems {
     }
 
     private static void checkOrdered() {
-        int[] intArray = {1,2,4,7,6};
+        int[] intArray = {1,2,4,7,61};
         boolean isOrdered = true;
-        for(int i = 0; i < intArray.length - 1;i++) {
+        for(int i = 0; isOrdered && i < intArray.length - 1;i++) {
             if(intArray[i] >= intArray[i+1]) {
                 isOrdered = false;
-                break;
             }
         }
         if(isOrdered) {
