@@ -1,3 +1,5 @@
+package curs.lab4.array;
+
 /**
  * @author flo
  * @since 29/11/2016.

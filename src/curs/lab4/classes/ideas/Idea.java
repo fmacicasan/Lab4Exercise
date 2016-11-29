@@ -1,3 +1,4 @@
+package curs.lab4.classes.ideas;
 /**
  * @author flo
  * @since 29/11/2016.

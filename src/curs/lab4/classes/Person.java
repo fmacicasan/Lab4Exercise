@@ -1,4 +1,7 @@
+package curs.lab4.classes;
+
 import java.util.Date;
+import curs.lab4.classes.ideas.*;
 
 /**
  * @author flo

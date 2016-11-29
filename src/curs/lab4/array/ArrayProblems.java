@@ -1,3 +1,5 @@
+package curs.lab4.array;
+
 import java.util.Arrays;
 
 /**
