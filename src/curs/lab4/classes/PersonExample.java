@@ -1,5 +1,7 @@
 package curs.lab4.classes;
 
+import curs.lab4.classes.ideas.Idea;
+
 /**
  * @author flo
  * @since 29/11/2016.
