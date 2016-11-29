@@ -8,7 +8,25 @@ public class ArrayProblems {
     public static void main(String[] args) {
 
 //        getMax();
-        separateParity();
+//        separateParity();
+        checkOrdered();
+    }
+
+    private static void checkOrdered() {
+        int[] intArray = {1,2,4,7,6};
+        boolean isOrdered = true;
+        for(int i = 0; i < intArray.length - 1;i++) {
+            if(intArray[i] >= intArray[i+1]) {
+                isOrdered = false;
+                break;
+            }
+        }
+        if(isOrdered) {
+            System.out.println("Is Ordered");
+        } else {
+            System.out.println("Neordonat!");
+        }
+
     }
 
     private static void separateParity() {
