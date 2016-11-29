@@ -6,8 +6,9 @@ public class PersonExample {
     public static void main(String[] args) {
         Person florin = new Person("flo","last");
 
-        System.out.println(florin.talk());
-        System.out.println(florin.talk());
-        System.out.println(florin.talk());
+        for(int i=0 ;i< 10; i++) {
+            System.out.println(florin.talk());
+            System.out.println("Idea Count:" + Idea.getIdeaCount());
+        }
     }
 }
