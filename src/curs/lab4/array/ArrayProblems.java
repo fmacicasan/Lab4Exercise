@@ -13,7 +13,25 @@ public class ArrayProblems {
 //        separateParity();
 //        checkOrdered();
 //        sortAsceding();
-        getMinMaxFromSorted();
+//        getMinMaxFromSorted();
+        checkDuplicates();
+    }
+
+    private static void checkDuplicates() {
+        int[] intArray = {4,7,3,5,1,10,1};
+        Arrays.sort(intArray);
+        boolean hasDuplicates = false;
+        for(int i = 0; i < intArray.length - 1 ; i++) {
+            if(intArray[i] == intArray[i+1]) {
+                hasDuplicates = true;
+                break;
+            }
+        }
+        if(hasDuplicates) {
+            System.out.println("Has Duplicates");
+        } else {
+            System.out.println("Unique elements");
+        }
     }
 
     private static void getMinMaxFromSorted() {
