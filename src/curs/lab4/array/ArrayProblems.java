@@ -11,7 +11,16 @@ public class ArrayProblems {
 
 //        getMax();
 //        separateParity();
-        checkOrdered();
+//        checkOrdered();
+        sortAsceding();
+    }
+
+    private static void sortAsceding() {
+        int[] intArray = {4,7,3,5,1,10};
+        Arrays.sort(intArray);
+        for(int elem : intArray) {
+            System.out.println(elem);
+        }
     }
 
     private static void checkOrdered() {
