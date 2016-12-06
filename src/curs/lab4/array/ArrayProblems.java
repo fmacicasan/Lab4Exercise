@@ -12,7 +12,14 @@ public class ArrayProblems {
 //        getMax();
 //        separateParity();
 //        checkOrdered();
-        sortAsceding();
+//        sortAsceding();
+        getMinMaxFromSorted();
+    }
+
+    private static void getMinMaxFromSorted() {
+        int[] intArray = {1,2,3,4};
+        System.out.println("Min" + intArray[0]);
+        System.out.println("Max" + intArray[intArray.length - 1]);
     }
 
     private static void sortAsceding() {
